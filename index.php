@@ -31,7 +31,7 @@ if(isset($_GET['id_status'])){
 	$otask->finishTask($_GET['id_status']);
 	header("location:index.php");
 }
-
+//ascend data
 if(isset($_GET['asc'])){
 	$otask->ascendData($_GET['asc']);
 }
